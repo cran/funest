@@ -1,0 +1,16 @@
+S3method(predict,cr_survreg)
+S3method(print,cr_survreg)
+S3method(summary,cr_survreg)
+export(funest_fit)
+export(funest_pred)
+export(predictor_loader)
+importFrom("stats", ".checkMFClasses", ".getXlevels", "as.formula",
+               "binom.test", "delete.response", "fitted", "formula", "lag",
+               "median", "model.frame", "model.matrix", "na.exclude",
+               "na.omit", "na.pass", "predict", "reformulate", "relevel",
+               "setNames", "terms", "time", "update",  "model.response", "na.fail")
+importFrom("survival", "Surv")
+importFrom("prodlim", "Hist")
+importFrom("utils", "data")
+importFrom(Rdpack,reprompt)
+importFrom("pec", "pec")
